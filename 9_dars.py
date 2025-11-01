@@ -1,3 +1,4 @@
+#1_topshiriq
 cars=["toyota", "mazda", "huyundai", "gm", "kia"]
 for car in cars:
     if car=="gm":
@@ -5,6 +6,8 @@ for car in cars:
     else:
         print(car.title())
 
+
+#2_topshiriq
 
 moshinalar=["toyota", "mazda", "huyundai", "gm", "kia"]
 for moshina in moshinalar:
@@ -14,11 +17,15 @@ for moshina in moshinalar:
         print(moshina.upper())
 
 
+#3_topshiriq
+
 login=input("Loginizni kiriting >>> ")
 if login.lower()=="admin":
     print("Xush kelibsiz, Admin. Foydalanuvchilar ro'yzatini ko'rasizmi?")
 else: print(f"Xush kelibsiz, {login}!")
 
+
+#4_topshiriq
 
 x=float(input("Birinchi son >>> "))
 y=float(input("Ikkinchi son >>> "))
@@ -27,12 +34,16 @@ if x==y:
 else: print("Sonlar teng emas!")
 
 
+#5_topshiriq
+
 son=float(input("Hohalgan son kiriting >>> "))
 if son<0:
     print("Manfiy son")
 else:
     print("Musbat son")
 
+
+#6_topshiriq
 
 A=float(input("Son kiriting >>> "))
 if A>0:

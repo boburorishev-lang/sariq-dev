@@ -1,3 +1,4 @@
+#1_topshiriq
 davlatlar=["Rossya","O'zbekiston","Hindiston","Xitoy","Yaponiya","Braziliya", "Portugaliya","Argentina","Ispaniya"]
 print(davlatlar)
 print(sorted(davlatlar))
@@ -9,6 +10,10 @@ davlatlar.sort()
 print(davlatlar)
 davlatlar.sort(reverse=True)
 print(davlatlar)
+
+
+#2_topshiriq
+
 juft_sonlar=list(range(120,1200,2))
 print(juft_sonlar)
 print(sum(juft_sonlar))
@@ -19,6 +24,10 @@ print(juft_sonlar[:20])
 print(juft_sonlar[-20:])
 print(juft_sonlar[260:280])
 print(juft_sonlar[int(len(juft_sonlar)/2)-10 : int(len(juft_sonlar)/2)+10])
+
+
+#3_topshiriq
+
 taomlar=["Osh","Manti","Xonim","Shorva","Mastava"]
 nonushta=taomlar[:]
 del nonushta[2]
